@@ -6,7 +6,7 @@ void Merge(int arr[],int start,int end)
     int n1=mid-start+1;
     int n2=end-mid;
 
-    int left[n1];
+    int left[n1];  //creating the left subarray to store the elements of left side in sorted order 
     int right[n2];
 
     
@@ -21,7 +21,7 @@ void Merge(int arr[],int start,int end)
     int leftindex=0;
     int rightIndex=0;
     int k=start;
-    while (leftindex<n1 && rightIndex<n2)
+    while (leftindex<n1 && rightIndex<n2)  //remember to always put less than n condition not less than =
     {
         if (left[leftindex]<=right[rightIndex])
         {
