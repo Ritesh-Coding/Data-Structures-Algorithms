@@ -216,7 +216,7 @@ int main() {
   sixth -> next = seventh;
   seventh -> next = eighth;
   eighth -> next = ninth;
-  ninth -> next = second;
+  ninth -> next = head;
 
   //print(head);
 //   head = reverseKNodes(head, 5);
