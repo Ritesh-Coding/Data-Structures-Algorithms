@@ -68,7 +68,7 @@ void Solve(vector<int> &arr,int i,int start,int end)
 }
 int main()
 {
-    vector<int> arr{1,23,56,1,45,65,78,69};
+    vector<int> arr{4,1,3,9,7};
     int n=arr.size();
     int i=0;
     int start=0;

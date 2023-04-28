@@ -33,10 +33,10 @@ int Binary_search1(vector<int> v,int size,int target)
 
 int main()
 {
-    vector <int> v{1,2,3,6,9,10};
+    vector <int> v{1,2,3,4,6};
     int size=v.size();
     // cout<<size;
-   int result= Binary_search1(v,size,10);  
+   int result= Binary_search1(v,size,6);  
     if(binary_search(v.begin(),v.end(),11))//using inbuilt function
     
     {
