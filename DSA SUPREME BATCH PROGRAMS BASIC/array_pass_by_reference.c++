@@ -18,6 +18,7 @@ void inc(int arr[],int size)
 int main()
 {
     int arr[]={1,2,3};
+      
     inc(arr,3);
     cout<<endl;
     print_array(arr,3);

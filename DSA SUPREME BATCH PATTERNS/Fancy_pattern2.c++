@@ -19,6 +19,8 @@ int main()
     // cout<< "***************************"<<count;
     count=count-4;
     int temp=count;
+    // cout<<count;
+     
 
     for (int row = 4; row > 0; row--)
     {

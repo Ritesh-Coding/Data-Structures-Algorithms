@@ -3,9 +3,6 @@
 #include<algorithm>
 using namespace std;
 
-vector <int> ans;
-
-
 vector<int> fact(int n){
     vector<int> res;
     res.push_back(1);

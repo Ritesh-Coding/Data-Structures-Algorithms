@@ -50,7 +50,7 @@ int main()
     Node *head = new Node(45);
     Node* second = new Node(55);
     Node * third = new Node(66);
-    Node *fourth = new Node(77);43 
+    Node *fourth = new Node(77);
 
     head->next=second;
     second->next=third;

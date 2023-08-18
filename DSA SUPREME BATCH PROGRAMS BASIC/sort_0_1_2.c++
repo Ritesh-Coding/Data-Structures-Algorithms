@@ -4,7 +4,7 @@ using namespace std;
 
 int main()   
 {
-   vector<int> arr{2,0,1};
+   vector<int> arr{0,2,1,2,1,2,0,1,2,0};
     int start=0,mid=0,end=arr.size()-1;    //here as only 0 and 2 we have to set and therefore 1 is set automatically
                                             //000000001111111111222222222222222   
     while (mid<=end)

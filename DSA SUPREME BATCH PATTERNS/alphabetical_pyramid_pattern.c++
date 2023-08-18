@@ -12,6 +12,7 @@ int main()
             cout<<ch;   
         
         }
+        
         col = col-1;        
         
         for (; col >=1; col--)
@@ -19,7 +20,7 @@ int main()
             
             char ch=col+'A'-1;
             cout<<ch;
-        }
+        }   
         
         cout<<endl;
     }   

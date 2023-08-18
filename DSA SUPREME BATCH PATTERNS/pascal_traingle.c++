@@ -5,7 +5,7 @@ int binomial_Coeff(int n, int k)
 {
     int res = 1;
     if (k > n - k)
-    k = n - k;
+       k = n - k;
     for (int i = 0; i < k; ++i)
     {
         res *= (n - i);
@@ -16,7 +16,7 @@ int binomial_Coeff(int n, int k)
 }
 int main()
 {
-    for (int row = 0; row < 7; row++)
+    for (int row = 0; row < 7; row++)   
     {
         for (int col = 0; col < row+1; col++)
         {

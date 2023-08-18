@@ -6,7 +6,7 @@ vector<bool> Sieve(int n)
     vector<bool> sieve(n+1,true);
     sieve[0]=sieve[1]=false;
     // for (int i = 2; i <n ; i++)
-    for (int i = 2; i < i*i; i++)  //optimization 2
+    for (int i = 2; i < i*i ; i++)  //optimization 2
     
     {
         if(sieve[i]==true)

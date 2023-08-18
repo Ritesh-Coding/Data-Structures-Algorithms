@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr1[]={1,2,3,4,5,6,45};
+    int arr1[]={98,1111,1112};
     int arr2[]={21,22,30,40,45,78,98};
     int arr3[]={45,98,78};
 

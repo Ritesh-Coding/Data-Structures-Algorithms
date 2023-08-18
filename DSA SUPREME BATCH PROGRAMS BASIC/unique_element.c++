@@ -14,7 +14,7 @@ int unique_element(vector<int> arr,int size)
 
 int main()
 {
-    vector<int> arr{5,6,10,5,6};
+    vector<int> arr{5,6,10,5,6  };
 
     int ans=unique_element(arr,5);
     cout<<"Unique element is :--> "<<ans;

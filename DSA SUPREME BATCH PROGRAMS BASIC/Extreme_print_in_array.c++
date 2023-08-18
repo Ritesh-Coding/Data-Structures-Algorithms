@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    int arr[]={2,6,4,78,89,5};
-    int size=6;
+    int arr[]={2,5};
+    int size=2;
     int start=0;
     int end=size-1;
 

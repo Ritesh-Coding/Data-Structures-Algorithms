@@ -2,7 +2,7 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-int Partition(vector<int> &arr,int i,int start,int end)
+int Partition(vector<int> &arr,int start,int end)
 {
         //  step 1:choose pivot element
         int pivotIndex=start;
@@ -43,7 +43,7 @@ int Partition(vector<int> &arr,int i,int start,int end)
             //2 case ho sakte h
             //you find the element to swap 
             // no swap
-
+    
             if (i1<pivotIndex && j1>pivotIndex)
             {
                 swap(arr[i1],arr[j1]);
@@ -53,27 +53,27 @@ int Partition(vector<int> &arr,int i,int start,int end)
         return pivotIndex;
         
 }
-void Solve(vector<int> &arr,int i,int start,int end)
+void Solve(vector<int> &arr,int start,int end)
 {
     if (start>end)
     {
         return;
     }
-    int partition_index=Partition(arr,i,start,end);
+    int partition_index=Partition(arr,start,end);
 
-    Solve(arr,i,start,partition_index-1);
+    Solve(arr,start,partition_index-1);
 
-    Solve(arr,i,partition_index+1,end);
+    Solve(arr,partition_index+1,end);
     
 }
 int main()
 {
-    vector<int> arr{4,1,3,9,7};
+    vector<int> arr{4};
     int n=arr.size();
-    int i=0;
+
     int start=0;
     int end=n-1;
-    Solve(arr,i,start,end);
+    Solve(arr,start,end);
     for (int i = 0; i < n; i++)
     {
         cout<<arr[i]<<" ";

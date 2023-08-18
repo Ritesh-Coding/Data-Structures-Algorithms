@@ -38,6 +38,7 @@ void Merge(int arr[],int start,int end)
     arr[k] = left[leftindex];
     leftindex++;
     k++;
+    
   }
 
   while (rightIndex < n2) {

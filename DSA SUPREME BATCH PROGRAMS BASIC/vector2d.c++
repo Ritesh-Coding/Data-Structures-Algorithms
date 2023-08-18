@@ -10,6 +10,7 @@ int main()
     vector<int> b{4,5,6};
 
     arr.push_back(a);
+    
     arr.push_back(b);
 
     for (int i = 0; i < arr.size(); i++)

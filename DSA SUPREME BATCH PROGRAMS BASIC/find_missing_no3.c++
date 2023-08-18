@@ -26,7 +26,7 @@ int find_missing(int arr[],int n)
 }
 int main()
 {
-    int arr[]={1,2,4,5,6,7,9}; //works  for no greater than 0   //not a good method
+    int arr[]={1,2,3,4,5,6,7,8,9}; //works  for no greater than 0   //not a good method
     int n=sizeof(arr)/sizeof(arr[0]);
     int result=find_missing(arr,n);
 
